@@ -36,13 +36,13 @@ import {
  * OPTIONAL: Pre-create 3 accounts (one per brother) using the Sign Up tab here.
  */
 
-const FIREBASE_CONFIG = {
-  apiKey: "REPLACE_ME",
-  authDomain: "REPLACE_ME",
-  projectId: "REPLACE_ME",
-  storageBucket: "REPLACE_ME",
-  messagingSenderId: "REPLACE_ME",
-  appId: "REPLACE_ME",
+const firebaseConfig = {
+  apiKey: "AIzaSyDbAMlSWpRJlpy7BzmWyfUkNiwdpbCdMqE",
+  authDomain: "expense-tracker-1dde5.firebaseapp.com",
+  projectId: "expense-tracker-1dde5",
+  storageBucket: "expense-tracker-1dde5.firebasestorage.app",
+  messagingSenderId: "267542924630",
+  appId: "1:267542924630:web:a95ea9330a0d7caa5edaf7"
 };
 
 const app = initializeApp(FIREBASE_CONFIG);
